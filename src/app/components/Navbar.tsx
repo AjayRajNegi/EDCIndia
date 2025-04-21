@@ -33,8 +33,9 @@ export default function Navbar() {
         </div>
       </nav>
       {/* For Smaller Screens */}
-      <nav className="w-[85%] relative h-[80px] bg-white text-black flex items-center justify-center px-4 rounded-md shadow-lg md:hidden">
-        <div className=" w-full ">
+      <nav className="w-[85%] relative h-[80px] bg-white text-black flex items-center justify-between px-4 rounded-md shadow-lg md:hidden">
+        {/* Logo on the left */}
+        <div className="w-auto">
           <Image
             src="/Icons/EDCIndiaLogo.png"
             width={200}
@@ -42,10 +43,10 @@ export default function Navbar() {
             alt="logo"
           />
         </div>
-        <div className="fixed left-[78%] top-[5%] z-[999] flex w-full max-w-full flex-1 items-center justify-start text-white md:hidden">
-          <div className="w-[42%]">
-            <Nav />
-          </div>
+
+        {/* Nav Toggle Button on the right */}
+        <div className="z-[999]">
+          <Nav />
         </div>
       </nav>
     </div>

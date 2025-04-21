@@ -34,7 +34,7 @@ export default function Home() {
             <p>6000+ Entrepreneurs Mentored</p>
           </div>
         </div>
-        <div className="mt-[40px] md:mt-[60px] text-[27px] md:text-4xl font-bold flex flex-col items-center justify-center">
+        <div className="mt-[40px] md:mt-[60px] text-[3vh] md:text-4xl font-bold flex flex-col items-center justify-center">
           <p>Welcome to</p>
           <div className="flex items-center gap-2 w-full -mt-5 md:mt-0">
             <div className="text-[#2E7D32] flex flex-col  items-center mt-4">
@@ -54,7 +54,7 @@ export default function Home() {
                 className="md:hidden"
               />
             </div>
-            <p>Angels Network</p>
+            <p className="text-nowrap">Angels Network</p>
           </div>
         </div>
         <div className="absolute h-[100px] w-[100px] bg-[#C0E87D] rounded-full  top-[30%] left-[94%] md:left-[96%] "></div>
@@ -62,15 +62,15 @@ export default function Home() {
         <div className="absolute h-[200px] w-[200px] bg-[#C0E87D] rounded-full top-[55%] md:top-[65%] right-[90%] md:right-[94%] "></div>
       </section>
       {/* Second Section */}
-      <section className="h-auto bg-[#FFFCFC]/60 w-full rounded-[70px] px-[4vw] overflow-hidden relative pb-[100px]">
-        <div className="absolute h-[200px] w-[200px] bg-[#C0E87D]/40  rounded-full top-[10%] left-[94%] flex justify-center items-center">
-          <div className=" h-[150px] w-[150px] bg-[#C0E87D] rounded-full top-[10%] left-[94%] "></div>
+      <section className="h-auto bg-[#FFFCFC]/60 w-full rounded-[40px] md:rounded-[70px] px-[4vw] overflow-hidden relative pb-[100px]">
+        <div className="absolute h-[200px] w-[200px] bg-[#C0E87D]/30 md:bg-[#C0E87D]/40  rounded-full top-[15%] xl:top-[10%] left-[50%] -translate-x-[50%] xl:-translate-x-[0%] xl:left-[94%] flex justify-center items-center z-0">
+          <div className=" h-[150px] w-[150px] bg-[#C0E87D]/40 xl:bg-[#C0E87D] rounded-full top-[10%] left-[94%] z-0"></div>
         </div>
-        <article className="pt-[40px]">
-          <h1 className="text-5xl font-bold py-[20px]">
+        <article className="pt-[40px] flex flex-col items-center">
+          <h1 className="text-4xl md:text-5xl font-bold py-[20px] ">
             Why do we <span className="text-[#2E7D32]">exist?</span>
           </h1>
-          <p className="text-xl font-semibold pr-[6vw]">
+          <p className="text-xl font-semibold pr-0 md:pr-[6vw] text-justify">
             India&apos;s startup ecosystem is thriving, fueled by ambitious
             entrepreneurs turning their dreams into reality. The vibrant state
             of Uttarakhand is becoming a key part of this growth journey.
@@ -82,13 +82,13 @@ export default function Home() {
             success in Uttarakhand and beyond!
           </p>
         </article>
-        <article className="flex flex-col justify-center items-center mt-[100px]">
+        <article className="flex flex-col justify-center text-center items-center mt-[100px]">
           <h1 className="font-bold uppercase text-5xl">
             startups funded by our
             <span className="uppercase text-[#2E7D32] pl-4">members.</span>
           </h1>
           {/* Member Cards */}
-          <div className="mt-[70px] flex gap-[5vw] ">
+          <div className="mt-[70px] flex flex-col md:flex-row gap-[5vw] ">
             <div className="group h-[260px] w-[250px] bg-[#2E7D32] hover:scale-110 hover:bg-[#C0E87D] transition-transform transition-colors duration-300 rounded-lg">
               <div className="h-[250px] w-[250px] bg-white  transition-colors rounded-lg flex flex-col justify-center items-center">
                 <Image
@@ -137,10 +137,10 @@ export default function Home() {
         </article>
       </section>
       {/* Third Section */}
-      <section className="h-screen w-full rounded-[70px] px-[4vw] py-[4vw] overflow-hidden bg-[#FFF] shadow-2xl mt-[50px]">
+      <section className="h-auto w-full rounded-[70px] px-[4vw] py-[4vw] overflow-hidden bg-[#FFF] shadow-2xl mt-[50px]">
         {/*  */}
-        <article className="flex justify-between items-center mb-[50px]">
-          <div className="w-[48%] h-[300px] flex flex-col gap-3">
+        <article className="flex flex-col md:flex-row justify-between items-center mb-[50px]">
+          <div className="w-full md:w-[48%] h-auto md:h-[300px] flex flex-col gap-3">
             <h3 className="text-5xl font-semibold">
               Empowering Startup Growth
             </h3>
@@ -159,7 +159,7 @@ export default function Home() {
               Become A Member
             </div>
           </div>
-          <div className="w-[42%] h-[250px] relative">
+          <div className="w-full md:w-[42%] h-[250px] relative">
             <Image
               src="/Images/Growth.png"
               fill
@@ -169,16 +169,16 @@ export default function Home() {
           </div>
         </article>
         {/*  */}
-        <article className="flex justify-between items-center ">
+        <article className="flex flex-col-reverse md:flex-row justify-between items-center ">
           <div
-            className="w-[42%] h-[250px] relative"
+            className="w-full md:w-[42%] h-[250px] relative"
             style={{
               backgroundImage: `url('/Images/Success.png')`,
               backgroundPositionY: "-20px",
               backgroundSize: "cover",
             }}
           ></div>
-          <div className="w-[48%] h-[300px] flex flex-col gap-3">
+          <div className=" w-full md:w-[48%] h-auto md:h-[300px] flex flex-col gap-3">
             <h3 className="text-5xl font-semibold">
               Collaborative Startup Success
             </h3>
