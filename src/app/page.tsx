@@ -137,10 +137,10 @@ export default function Home() {
         </article>
       </section>
       {/* Third Section */}
-      <section className="h-auto w-full rounded-[70px] px-[4vw] py-[4vw] overflow-hidden bg-[#FFF] shadow-2xl mt-[50px]">
+      <section className="h-auto w-full rounded-[40px] md:rounded-[70px] px-[4vw] py-[4vw] overflow-hidden bg-[#FFF] shadow-2xl mt-[50px]">
         {/*  */}
         <article className="flex flex-col md:flex-row justify-between items-center mb-[50px]">
-          <div className="w-full md:w-[48%] h-auto md:h-[300px] flex flex-col gap-3">
+          <div className="w-full md:w-[48%] h-auto md:h-[300px] flex flex-col gap-3 mb-10 mt-5 md:mb-0 md:mt-0">
             <h3 className="text-5xl font-semibold">
               Empowering Startup Growth
             </h3>
@@ -159,7 +159,7 @@ export default function Home() {
               Become A Member
             </div>
           </div>
-          <div className="w-full md:w-[42%] h-[250px] relative">
+          <div className="w-full md:w-[42%] h-[250px] relative overflow-hidden rounded-2xl">
             <Image
               src="/Images/Growth.png"
               fill
@@ -171,7 +171,7 @@ export default function Home() {
         {/*  */}
         <article className="flex flex-col-reverse md:flex-row justify-between items-center ">
           <div
-            className="w-full md:w-[42%] h-[250px] relative"
+            className="w-full md:w-[42%] h-[250px] relative rounded-2xl overflow-hidden mt-10 md:mt-10"
             style={{
               backgroundImage: `url('/Images/Success.png')`,
               backgroundPositionY: "-20px",
