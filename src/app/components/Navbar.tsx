@@ -42,7 +42,7 @@ export default function Navbar() {
             alt="logo"
           />
         </div>
-        <div className="absolute left-[80%] top-[50%] -translate-y-[50%] z-[999] flex w-full max-w-full flex-1 items-center justify-start text-white md:hidden">
+        <div className="fixed left-[78%] top-[5%] z-[999] flex w-full max-w-full flex-1 items-center justify-start text-white md:hidden">
           <div className="w-[42%]">
             <Nav />
           </div>

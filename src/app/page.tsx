@@ -6,20 +6,20 @@ export default function Home() {
     <main className="bg-[#F6F5EB] h-auto w-full">
       <Navbar />
       {/* First Section */}
-      <section className="h-[80vh] px-[4vw] flex flex-col items-center overflow-hidden relative">
-        <div className="font-bold text-6xl text-gray-950 mt-[80px] flex flex-col items-center">
+      <section className="h-auto xl:h-[80vh] px-[4vw] flex flex-col items-center overflow-hidden relative pb-[50px] md:pb-0">
+        <div className="font-bold text-3xl  md:text-6xl text-gray-950 mt-[70px] md:mt-[80px] flex flex-col items-center justify-center">
           <p>
             From <span className="text-[#2E7D32]">Idea to Launch,</span>
           </p>
-          <p>We Fuel Startups and Ignite Your Growth</p>
+          <p className="text-center">We Fuel Startups and Ignite Your Growth</p>
         </div>
-        <div className="text-gray-400 text-xl font-bold mt-[60px]">
+        <div className="text-gray-400 text-base text-center md:text-xl font-bold mt-[30px] md:mt-[60px]">
           <p>
             Empowering startups with funding, membership, and startegic growth
             opportunities.
           </p>
         </div>
-        <div className="mt-[60px] flex w-full items-center justify-center">
+        <div className="mt-[40px] md:mt-[60px] flex flex-col md:flex-row w-full items-center justify-center">
           <div className="flex gap-5 items-center ">
             <Image
               src="/Images/GroupProfile.png"
@@ -29,14 +29,14 @@ export default function Home() {
             />
             <p className="font-semibold text-gray-950">Trusted by many</p>
           </div>
-          <div className="h-10 w-1 bg-green-800 mx-15" />
+          <div className="h-10 w-1 bg-green-800 mx-15  rotate-90 md:rotate-0" />
           <div>
             <p>6000+ Entrepreneurs Mentored</p>
           </div>
         </div>
-        <div className="mt-[60px] text-4xl font-bold flex flex-col items-center">
+        <div className="mt-[40px] md:mt-[60px] text-[27px] md:text-4xl font-bold flex flex-col items-center justify-center">
           <p>Welcome to</p>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 w-full -mt-5 md:mt-0">
             <div className="text-[#2E7D32] flex flex-col  items-center mt-4">
               Uttarakhand
               <Image
@@ -44,14 +44,22 @@ export default function Home() {
                 width={200}
                 height={20}
                 alt="stroke"
+                className="hidden md:block"
+              />
+              <Image
+                src="/Images/GreenStroke.png"
+                width={150}
+                height={20}
+                alt="stroke"
+                className="md:hidden"
               />
             </div>
             <p>Angels Network</p>
           </div>
         </div>
-        <div className="absolute h-[100px] w-[100px] bg-[#C0E87D] rounded-full top-[30%] left-[96%] "></div>
+        <div className="absolute h-[100px] w-[100px] bg-[#C0E87D] rounded-full  top-[30%] left-[94%] md:left-[96%] "></div>
 
-        <div className="absolute h-[200px] w-[200px] bg-[#C0E87D] rounded-full top-[65%] right-[94%] "></div>
+        <div className="absolute h-[200px] w-[200px] bg-[#C0E87D] rounded-full top-[55%] md:top-[65%] right-[90%] md:right-[94%] "></div>
       </section>
       {/* Second Section */}
       <section className="h-auto bg-[#FFFCFC]/60 w-full rounded-[70px] px-[4vw] overflow-hidden relative pb-[100px]">
