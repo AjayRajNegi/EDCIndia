@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
+import FAQSection from "./components/FAQSection";
 
 export default function Home() {
   return (
@@ -66,7 +67,7 @@ export default function Home() {
         <div className="absolute h-[200px] w-[200px] bg-[#C0E87D]/30 md:bg-[#C0E87D]/40  rounded-full top-[15%] xl:top-[10%] left-[50%] -translate-x-[50%] xl:-translate-x-[0%] xl:left-[94%] flex justify-center items-center z-0">
           <div className=" h-[150px] w-[150px] bg-[#C0E87D]/40 xl:bg-[#C0E87D] rounded-full top-[10%] left-[94%] z-0"></div>
         </div>
-        <article className="pt-[40px] flex flex-col items-center">
+        <article className="pt-[40px] flex flex-col items-center md:items-start">
           <h1 className="text-4xl md:text-5xl font-bold py-[20px] ">
             Why do we <span className="text-[#2E7D32]">exist?</span>
           </h1>
@@ -140,7 +141,7 @@ export default function Home() {
       <section className="h-auto w-full rounded-[40px] md:rounded-[70px] px-[4vw] py-[4vw] overflow-hidden bg-[#FFF] shadow-2xl mt-[50px]">
         {/*  */}
         <article className="flex flex-col md:flex-row justify-between items-center mb-[50px]">
-          <div className="w-full md:w-[48%] h-auto md:h-[300px] flex flex-col gap-3 mb-10 mt-5 md:mb-0 md:mt-0">
+          <div className="w-full md:w-[48%] h-auto flex flex-col gap-3 mb-10 mt-5 md:mb-0 md:mt-0">
             <h3 className="text-5xl font-semibold">
               Empowering Startup Growth
             </h3>
@@ -155,7 +156,7 @@ export default function Home() {
               startups, providing them with strategic mentorship, funding, and
               industry expertise to refine and validate their business models.
             </p>
-            <div className="px-4 w-fit py-2 border-2 border-green-300 text-green-300 rounded-md">
+            <div className="px-4 w-fit py-2 border-2 border-[#2E7D32] text-[#2E7D32] rounded-md">
               Become A Member
             </div>
           </div>
@@ -174,11 +175,11 @@ export default function Home() {
             className="w-full md:w-[42%] h-[250px] relative rounded-2xl overflow-hidden mt-10 md:mt-10"
             style={{
               backgroundImage: `url('/Images/Success.png')`,
-              backgroundPositionY: "-20px",
+              backgroundPositionY: "top",
               backgroundSize: "cover",
             }}
           ></div>
-          <div className=" w-full md:w-[48%] h-auto md:h-[300px] flex flex-col gap-3">
+          <div className=" w-full md:w-[48%] h-auto  flex flex-col gap-3">
             <h3 className="text-5xl font-semibold">
               Collaborative Startup Success
             </h3>
@@ -196,7 +197,7 @@ export default function Home() {
               <div className="text-sm px-2 py-2 bg-[#EAF0DD] rounded-sm text-[#575656]">
                 More Info
               </div>
-              <div className="px-4 w-fit py-2 border-2 border-green-300 text-green-300 rounded-md">
+              <div className="px-4 w-fit py-2 border-2 border-[#2E7D32] text-[#2E7D32] rounded-md">
                 Apply To Pitch
               </div>
             </div>
@@ -204,7 +205,80 @@ export default function Home() {
         </article>
       </section>
       {/* Fourth Section */}
-      <section></section>
+      <section className="h-auto px-[4vw] py-[4vw] rounded-[40px] md:rounded-[70px] overflow-hidden bg-[#f4f3f3] mt-[50px]">
+        {/* Testimonials */}
+        <article className="">
+          <div>
+            <h1 className="text-5xl font-bold">Build.Serve.Scale</h1>
+            <h3 className="text-2xl font-bold mt-5 mb-10">
+              We're here to help you make the right decision. Explore our
+              frequently asked questions and find answers below.
+            </h3>
+          </div>
+          <div className="flex px-[4vw] justify-around items-center md:items-end flex-col md:flex-row gap-5 md:gap-0">
+            <div className="w-[330px] h-[290px] bg-[#F9FFF9] border-2 border-[#898989]/30 rounded-3xl p-4 hover:bg-[#FFF] hover:shadow-xl transition-colors transition-shadow duration-200">
+              <Image
+                src="/Icons/QuoteIcon.png"
+                width={40}
+                height={30}
+                alt="quote"
+              />
+              <p className="pt-5 text-lg">
+                “Investor connections! Found the perfect match, thanks for
+                simplifying the search”
+              </p>
+              <div className="flex gap-2 items-center pt-10">
+                <Image src="/Images/T1.png" width={40} height={40} alt="T1" />
+                <div className="text-[#2B2B2B]">
+                  <p>Sarah Jones,</p>
+                  <p className="-mt-1">GreenTech Solutions</p>
+                </div>
+              </div>
+            </div>
+            <div className="w-[350px] h-[300px] bg-[#F9FFF9] border-2 border-[#898989]/30 rounded-3xl p-4 hover:bg-[#FFF] hover:shadow-xl transition-colors transition-shadow duration-200">
+              <Image
+                src="/Icons/QuoteIcon.png"
+                width={40}
+                height={30}
+                alt="quote"
+              />
+              <p className="pt-5 text-lg">
+                “High-quality startups, curated perfectly. Saves me time & keeps
+                me ahead of the innovation curve”
+              </p>
+              <div className="flex gap-2 items-center pt-10">
+                <Image src="/Images/T2.png" width={40} height={40} alt="T2" />
+                <div className="text-[#2B2B2B]">
+                  <p>David Lee,</p>
+                  <p className="-mt-1">Spark Ventures</p>
+                </div>
+              </div>
+            </div>
+            <div className="w-[330px] h-[290px] bg-[#F9FFF9] border-2 border-[#898989]/30 rounded-3xl p-4 hover:bg-[#FFF] hover:shadow-xl transition-colors transition-shadow duration-200">
+              <Image
+                src="/Icons/QuoteIcon.png"
+                width={40}
+                height={30}
+                alt="quote"
+              />
+              <p className="pt-5 text-lg">
+                "More than just a directory. Found resources, advice, and even
+                co-founders here!"
+              </p>
+              <div className="flex gap-2 items-center pt-10">
+                <Image src="/Images/T3.png" width={40} height={40} alt="T3" />
+                <div className="text-[#2B2B2B]">
+                  <p>Marai Pernez,</p>
+                  <p className="-mt-1">Social Impact Agency</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article className="mt-[100px]">
+          <FAQSection />
+        </article>
+      </section>
     </main>
   );
 }

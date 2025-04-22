@@ -33,7 +33,7 @@ export default function Navbar() {
         </div>
       </nav>
       {/* For Smaller Screens */}
-      <nav className="w-[85%] relative h-[80px] bg-white text-black flex items-center justify-between px-4 rounded-md shadow-lg md:hidden">
+      <nav className="w-[85%] relative h-[70px] bg-white text-black flex items-center justify-between px-4 rounded-md shadow-lg md:hidden">
         {/* Logo on the left */}
         <div className="w-auto">
           <Image
