@@ -211,7 +211,7 @@ export default function Home() {
           <div>
             <h1 className="text-5xl font-bold">Build.Serve.Scale</h1>
             <h3 className="text-2xl font-bold mt-5 mb-10">
-              We're here to help you make the right decision. Explore our
+              We&apos;re here to help you make the right decision. Explore our
               frequently asked questions and find answers below.
             </h3>
           </div>
@@ -224,8 +224,8 @@ export default function Home() {
                 alt="quote"
               />
               <p className="pt-5 text-lg">
-                “Investor connections! Found the perfect match, thanks for
-                simplifying the search”
+                &quot;Investor connections! Found the perfect match, thanks for
+                simplifying the search&quot;
               </p>
               <div className="flex gap-2 items-center pt-10">
                 <Image src="/Images/T1.png" width={40} height={40} alt="T1" />
@@ -243,8 +243,8 @@ export default function Home() {
                 alt="quote"
               />
               <p className="pt-5 text-lg">
-                “High-quality startups, curated perfectly. Saves me time & keeps
-                me ahead of the innovation curve”
+                &quot;High-quality startups, curated perfectly. Saves me time &
+                keeps me ahead of the innovation curve&quot;
               </p>
               <div className="flex gap-2 items-center pt-10">
                 <Image src="/Images/T2.png" width={40} height={40} alt="T2" />
@@ -262,8 +262,8 @@ export default function Home() {
                 alt="quote"
               />
               <p className="pt-5 text-lg">
-                "More than just a directory. Found resources, advice, and even
-                co-founders here!"
+                &quot;More than just a directory. Found resources, advice, and
+                even co-founders here!&quot;
               </p>
               <div className="flex gap-2 items-center pt-10">
                 <Image src="/Images/T3.png" width={40} height={40} alt="T3" />
