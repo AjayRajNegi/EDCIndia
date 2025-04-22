@@ -31,7 +31,7 @@ const faqData: FAQItem[] = [
 ];
 
 export default function FAQSection() {
-  const [activeIndex, setActiveIndex] = useState<number | null>(0);
+  const [activeIndex, setActiveIndex] = useState<number | null>(-1);
 
   const toggleIndex = (index: number) => {
     setActiveIndex((prev) => (prev === index ? null : index));

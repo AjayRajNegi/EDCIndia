@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import FAQSection from "./components/FAQSection";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -279,6 +280,8 @@ export default function Home() {
           <FAQSection />
         </article>
       </section>
+      {/* Footer Section */}
+      <Footer />
     </main>
   );
 }
