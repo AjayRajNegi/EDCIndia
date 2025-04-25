@@ -65,7 +65,7 @@ export default function Home() {
       </section>
       {/* Second Section */}
       <section className="h-auto bg-[#FFFCFC]/60 w-full rounded-[40px] md:rounded-[70px] px-[4vw] overflow-hidden relative pb-[100px]">
-        <div className="absolute h-[200px] w-[200px] bg-[#C0E87D]/30 md:bg-[#C0E87D]/40  rounded-full top-[15%] xl:top-[10%] left-[50%] -translate-x-[50%] xl:-translate-x-[0%] xl:left-[94%] flex justify-center items-center z-0">
+        <div className="absolute h-[200px] w-[200px] bg-[#C0E87D]/30 md:bg-[#C0E87D]/40  rounded-full top-[11%] xl:top-[10%] left-[50%] -translate-x-[50%] xl:-translate-x-[0%] xl:left-[94%] flex justify-center items-center z-0">
           <div className=" h-[150px] w-[150px] bg-[#C0E87D]/40 xl:bg-[#C0E87D] rounded-full top-[10%] left-[94%] z-0"></div>
         </div>
         <article className="pt-[40px] flex flex-col items-center md:items-start">

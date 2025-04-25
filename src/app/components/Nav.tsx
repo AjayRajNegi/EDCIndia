@@ -3,37 +3,32 @@ import { useState } from "react";
 import { motion, AnimatePresence, MotionConfig } from "framer-motion";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 
 const navLinks = [
   {
     id: 1,
-    title: "Engineering",
+    title: "Home",
     href: "/engineering",
-    src: "/EnIcon.svg",
+    src: "/Icons/Evernote.png",
   },
   {
     id: 2,
-    title: "About Us",
+    title: "Members",
     href: "/about",
-    src: "/AboutIcon.svg",
+    src: "/Icons/Facebook.png",
   },
   {
     id: 3,
-    title: "Careers",
+    title: "Entrepreneurs",
     href: "/careers",
-    src: "/CareerIcon.svg",
+    src: "/Icons/Instagram.png",
   },
   {
     id: 4,
-    title: "Training Program",
+    title: "Contact Us",
     href: "/training_program",
-    src: "/TrainingIcon.svg",
-  },
-  {
-    id: 5,
-    title: "Partners",
-    href: "/partners",
-    src: "/PartnerIcon.svg",
+    src: "/Icons/Linkedin.png",
   },
 ];
 export default function Nav() {
@@ -195,17 +190,39 @@ export default function Nav() {
                   }}
                   className="flex list-none justify-center gap-x-4"
                 >
-                  <li>
-                    <div className="h-8 w-8 rounded-lg bg-[#7A7A7A]">
-                      sadfsdfs
+                  <a
+                    href="https://www.instagram.com/edcindia.in?igsh=MTQ3cHpicGFoOTVrcA=="
+                    target="_blank"
+                  >
+                    <div className="relative h-12 w-12 rounded-lg">
+                      <Image
+                        src="/Icons/Instagram.png"
+                        fill
+                        objectFit="cover"
+                        alt="Insta"
+                      />
                     </div>
-                  </li>
-                  <li>
-                    <div className="h-8 w-8 rounded-lg bg-[#7A7A7A]"></div>
-                  </li>
-                  <li>
-                    <div className="h-8 w-8 rounded-lg bg-[#7A7A7A]"></div>
-                  </li>
+                  </a>
+                  <a href="https://google.com">
+                    <div className="relative h-12 w-12 rounded-lg">
+                      <Image
+                        src="/Icons/Youtube.png"
+                        fill
+                        objectFit="cover"
+                        alt="Insta"
+                      />
+                    </div>
+                  </a>
+                  <a href="https://www.linkedin.com/company/31220335/admin/dashboard/">
+                    <div className="relative h-12 w-12 rounded-lg">
+                      <Image
+                        src="/Icons/LinkedIn.png"
+                        fill
+                        objectFit="cover"
+                        alt="Insta"
+                      />
+                    </div>
+                  </a>
                 </motion.ul>
               </motion.div>
             </MotionConfig>

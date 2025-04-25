@@ -26,7 +26,7 @@ export default function Navbar() {
             Entrepreneurs
           </Link>
           <div className="bg-[#E8FFC2] px-6 text-[#2E7D32] py-3 rounded-md w-auto ">
-            <Link href="/" className="font-semibold">
+            <Link href="/contact" className="font-semibold">
               Contact Us
             </Link>
           </div>
@@ -35,7 +35,7 @@ export default function Navbar() {
       {/* For Smaller Screens */}
       <nav className="w-[85%] relative h-[70px] bg-white text-black flex items-center justify-between px-4 rounded-md shadow-lg md:hidden">
         {/* Logo on the left */}
-        <div className="w-auto">
+        <div className="w-auto z-[9999] relative">
           <Image
             src="/Icons/EDCIndiaLogo.png"
             width={200}
