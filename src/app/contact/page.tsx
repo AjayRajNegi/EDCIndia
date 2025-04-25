@@ -26,7 +26,7 @@ export default function contact() {
         {/* Contact Section */}
         <div className="w-[30%]  justify-between flex flex-col">
           <h1 className="text-6xl font-bold text-balance ">
-            Let's discuss about the
+            Let&apos;s discuss about the
             <span className="text-[#2E7D32] px-2">future</span> together
           </h1>
           <div className=" flex flex-col gap-[25px]">
@@ -83,7 +83,7 @@ export default function contact() {
         {/* Form Section */}
         <div className="w-[50%] bg-[#F6F5EB] border-[#C2C2C2] border-2 rounded-3xl">
           <div>
-            <p>I'm interested in \ I'm a...</p>
+            <p>I&apos;m interested in \ I&apos;m a...</p>
           </div>
           <form action=""></form>
         </div>
