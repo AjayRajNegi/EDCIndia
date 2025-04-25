@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import FAQSection from "./components/FAQSection";
 import Footer from "./components/Footer";
+import Milestone from "./components/Milestone";
 
 export default function Home() {
   return (
@@ -32,9 +33,8 @@ export default function Home() {
             <p className="font-semibold text-gray-950">Trusted by many</p>
           </div>
           <div className="h-10 w-1 bg-green-800 mx-15  rotate-90 md:rotate-0" />
-          <div>
-            <p>6000+ Entrepreneurs Mentored</p>
-          </div>
+          {/*  */}
+          <Milestone />
         </div>
         <div className="mt-[40px] md:mt-[60px] text-[3vh] md:text-4xl font-bold flex flex-col items-center justify-center">
           <p>Welcome to</p>

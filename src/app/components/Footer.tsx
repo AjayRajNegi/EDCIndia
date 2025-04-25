@@ -35,7 +35,7 @@ export default function Footer() {
           <div className="flex gap-5">
             <a href="www.google.com" className=" ">
               <Image
-                src="/Icons/linkedIn.png"
+                src="/Icons/linkedin.png"
                 width={50}
                 height={50}
                 alt="Linkedin"
