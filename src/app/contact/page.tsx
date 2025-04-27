@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Form from "../components/Form";
 
 export default function contact() {
   return (
@@ -8,28 +9,28 @@ export default function contact() {
       <Navbar />
 
       <article className="my-[80px] w-full  flex flex-col items-center ">
-        <h1 className="text-5xl font-bold relative z-10">
+        <h1 className="text-4xl md:text-5xl font-bold relative z-10">
           Connect With <span className="text-[#2E7D32] ">Us.</span>
         </h1>
-        <p className="text-2xl text-[#959599] font-bold mt-[30px]">
+        <p className="text-base text-center md:text-2xl text-[#959599] font-bold mt-[30px] relative z-10">
           Empowering startups with funding, mentorship, and strategic growth
           opportunities.
         </p>
-        <div className="absolute h-[200px] w-[200px] bg-[#C0E87D]/30 md:bg-[#C0E87D]/40  rounded-full top-[5%]  left-[50%] -translate-x-[50%] xl:-translate-x-[0%] xl:left-[94%] flex justify-center items-center z-0">
+        <div className="absolute h-[200px] w-[200px] bg-[#C0E87D]/30 md:bg-[#C0E87D]/40 rounded-full top-[5%] left-[110%] md:left-[50%] -translate-x-[50%] xl:-translate-x-[0%] xl:left-[94%] flex justify-center items-center z-0">
           <div className=" h-[150px] w-[150px] bg-[#C0E87D]/40 xl:bg-[#C0E87D] rounded-full top-[10%] left-[94%] z-0"></div>
         </div>
-        <div className="absolute h-[75px] w-[75px] bg-[#C0E87D]  rounded-full top-[9%] left-[58%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
-        <div className="absolute h-[150px] w-[150px] bg-[#C0E87D]  rounded-full top-[6%] left-[30%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
+        <div className="hidden md:block absolute h-[75px] w-[75px] bg-[#C0E87D]  rounded-full top-[9%] md:left-[58%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
+        <div className="absolute h-[150px] w-[150px] bg-[#C0E87D]  rounded-full top-[5%] md:top-[6%] left-[30%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
         <div className="absolute h-[150px] w-[150px] bg-[#C0E87D]  rounded-full top-[-5%] left-[-3%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
       </article>
       <section className="min-h-[90vh] bg-[#FFFCFC] rounded-4xl mx-[2vw] shadow-2xl mb-[50px] flex flex-col md:flex-row gap-10 px-[2vw] py-[4vw] justify-around">
         {/* Contact Section */}
-        <div className="w-[30%]  justify-between flex flex-col">
-          <h1 className="text-6xl font-bold text-balance ">
+        <div className="w-[80%] md:w-[30%] justify-between flex flex-col mx-auto">
+          <h1 className="text-5xl text-center md:text-left  md:text-6xl font-bold text-balance ">
             Let&apos;s discuss about the
             <span className="text-[#2E7D32] px-2">future</span> together
           </h1>
-          <div className=" flex flex-col gap-[25px]">
+          <div className=" flex flex-col gap-[25px] my-10 md:my-0">
             <div className="flex items-center gap-3 font-semibold text-lg px-4">
               <Image
                 src="/Icons/Envelope.png"
@@ -58,7 +59,7 @@ export default function contact() {
               123 Street 456 House
             </div>
           </div>
-          <div className="flex gap-5 items-center px-2">
+          <div className="flex gap-5 items-center px-2 mx-auto md:mx-0">
             <Image
               src="/Icons/FacebookContact.png"
               width={40}
@@ -81,11 +82,8 @@ export default function contact() {
           </div>
         </div>
         {/* Form Section */}
-        <div className="w-[50%] bg-[#F6F5EB] border-[#C2C2C2] border-2 rounded-3xl">
-          <div>
-            <p>I&apos;m interested in \ I&apos;m a...</p>
-          </div>
-          <form action=""></form>
+        <div className="w-[96%] mx-auto md:w-[50%] bg-[#F6F5EB] border-[#C2C2C2] border-2 rounded-3xl h-auto">
+          <Form />
         </div>
       </section>
       <Footer />
