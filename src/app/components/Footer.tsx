@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -12,9 +13,12 @@ export default function Footer() {
           Empowering startups with funding, mentoring, and strategic growth
           opportunites.
         </p>
-        <div className="px-10 mt-5 py-3 rounded-full bg-[#2E7D32] text-sm text-[#fff]">
+        <Link
+          href="/contact"
+          className="px-10 mt-5 py-3 cursor-pointer rounded-full bg-[#2E7D32] text-sm text-[#fff]"
+        >
           Contact Us
-        </div>
+        </Link>
         <p className="text-sm text-[#0A142F] mt-5">2025 @ EDCIndia</p>
       </div>
       <div className="h-[25%] border-2 border-b-0 border-x-0 border-t-gray-100 content-center">
