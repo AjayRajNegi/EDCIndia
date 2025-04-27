@@ -65,7 +65,7 @@ export default function Form() {
   return (
     <main className="p-4 md:p-[2vw]">
       <div>
-        <p className="font-semibold">I'm interested in / I'm a..</p>
+        <p className="font-semibold">I&apos;m interested in / I&apos;m a..</p>
         <div className="flex flex-wrap gap-3 mt-3">
           {options.map((item, index) => (
             <div
