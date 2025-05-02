@@ -3,7 +3,7 @@ import Image from "next/image";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import MembershipForm from "./MembershipForm";
-import Apply from "./Apply";
+//import Apply from "./Apply";
 
 export default function members() {
   return (
