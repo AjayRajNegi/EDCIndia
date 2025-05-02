@@ -19,7 +19,7 @@ export default function Navbar() {
           <Link href="/" className="text-gray-950 text-lg font-semibold">
             Home
           </Link>
-          <Link href="/" className="text-gray-950 text-lg font-semibold">
+          <Link href="/members" className="text-gray-950 text-lg font-semibold">
             Members
           </Link>
           <Link href="/" className="text-gray-950 text-lg font-semibold">

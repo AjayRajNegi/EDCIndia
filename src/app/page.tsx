@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import FAQSection from "./components/FAQSection";
 import Footer from "./components/Footer";
 import Milestone from "./components/Milestone";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -94,45 +95,45 @@ export default function Home() {
             <div className="group h-[260px] w-[250px] bg-[#2E7D32] hover:scale-110 hover:bg-[#C0E87D] transition-transform transition-colors duration-300 rounded-lg">
               <div className="h-[250px] w-[250px] bg-white  transition-colors rounded-lg flex flex-col justify-center items-center">
                 <Image
-                  src="/Icons/Invision.png"
+                  src="/Logos/Bakefit.webp"
                   width={150}
                   height={150}
-                  alt="Invision"
+                  alt="Bakefit"
                 />
-                <p className="font-semibold">Invision</p>
+                <p className="font-semibold">BakeFit</p>
               </div>
             </div>
             <div className="group h-[260px] w-[250px] bg-[#2E7D32] hover:scale-110 hover:bg-[#C0E87D] transition-transform transition-colors duration-300 rounded-lg">
               <div className="h-[250px] w-[250px] bg-white  transition-colors rounded-lg flex flex-col justify-center items-center">
                 <Image
-                  src="/Icons/Telepat.png"
+                  src="/Logos/Nivedhya.webp"
                   width={150}
                   height={150}
-                  alt="Telepat"
+                  alt="Nivedhya"
                 />
-                <p className="font-semibold">Telepat.io</p>
+                <p className="font-semibold">Nivedhya11</p>
               </div>
             </div>
             <div className="group h-[260px] w-[250px] bg-[#2E7D32] hover:scale-110 hover:bg-[#C0E87D] transition-transform transition-colors duration-300 rounded-lg">
               <div className="h-[250px] w-[250px] bg-white  transition-colors rounded-lg flex flex-col justify-center items-center">
                 <Image
-                  src="/Icons/Evernote.png"
+                  src="/Logos/SureSolar.webp"
                   width={100}
                   height={100}
-                  alt="Invi"
+                  alt="SureSolar"
                 />
-                <p className="font-semibold">Evernote</p>
+                <p className="font-semibold">SureSolar</p>
               </div>
             </div>
             <div className="group h-[260px] w-[250px] bg-[#2E7D32] hover:scale-110 hover:bg-[#C0E87D] transition-transform transition-colors duration-300 rounded-lg">
               <div className="h-[250px] w-[250px] bg-white  transition-colors rounded-lg flex flex-col justify-center items-center">
                 <Image
-                  src="/Icons/node.png"
+                  src="/Logos/ShreeKitchen.webp"
                   width={100}
                   height={100}
-                  alt="Invision"
+                  alt="ShreeKitchen"
                 />
-                <p className="font-semibold">node.js</p>
+                <p className="font-semibold">ShreeKitchen</p>
               </div>
             </div>
           </div>
@@ -198,9 +199,12 @@ export default function Home() {
               <div className="text-sm px-2 py-2 bg-[#EAF0DD] rounded-sm text-[#575656]">
                 More Info
               </div>
-              <div className="px-4 w-fit py-2 border-2 border-[#2E7D32] text-[#2E7D32] rounded-md">
+              <Link
+                href="/contact"
+                className="px-4 w-fit py-2 border-2 border-[#2E7D32] text-[#2E7D32] rounded-md cursor-pointer"
+              >
                 Apply To Pitch
-              </div>
+              </Link>
             </div>
           </div>
         </article>

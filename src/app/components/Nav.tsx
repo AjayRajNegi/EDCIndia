@@ -9,26 +9,26 @@ const navLinks = [
   {
     id: 1,
     title: "Home",
-    href: "/engineering",
-    src: "/Icons/Evernote.png",
+    href: "/",
+    src: "/Icons/home.png",
   },
   {
     id: 2,
     title: "Members",
-    href: "/about",
-    src: "/Icons/Facebook.png",
+    href: "/members",
+    src: "/Icons/member.png",
   },
   {
     id: 3,
     title: "Entrepreneurs",
-    href: "/careers",
-    src: "/Icons/Instagram.png",
+    href: "/entrepreneurs",
+    src: "/Icons/entrepreneur.png",
   },
   {
     id: 4,
     title: "Contact Us",
-    href: "/training_program",
-    src: "/Icons/Linkedin.png",
+    href: "/contact",
+    src: "/Icons/contact.png",
   },
 ];
 export default function Nav() {
@@ -145,17 +145,17 @@ export default function Nav() {
                       key={link.id}
                       className={`font-semibold ${
                         pathName === link.href
-                          ? "text-3xl text-[#ad8adf] md:text-6xl"
+                          ? "text-3xl text-[#2E7D32] md:text-6xl"
                           : "text-2xl text-[#7A7A7A] md:text-5xl"
-                      } flex items-center tracking-tight`}
+                      } flex items-center tracking-tight gap-2`}
                     >
                       <img
                         src={link.src}
                         alt="logo"
                         className={`${
                           pathName === link.href
-                            ? "h-[50px] w-[50px] filter"
-                            : "h-[40px] w-[40px]"
+                            ? "h-[40px] w-[40px] filter"
+                            : "h-[30px] w-[30px]"
                         }`}
                         style={{ aspectRatio: 0.72 }}
                       />

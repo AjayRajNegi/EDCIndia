@@ -2,12 +2,12 @@
 import Image from "next/image";
 import { useState } from "react";
 
-interface FAQItem {
+interface FAQ {
   question: string;
   answer: string;
 }
 
-const faqData: FAQItem[] = [
+const faq: FAQ[] = [
   {
     question: "How Does Uttarakhand Angels Network(UAN) work ?",
     answer:
@@ -58,7 +58,7 @@ Previous startup experience.`,
   },
 ];
 
-export default function FAQSection() {
+export default function FAQ() {
   const [activeIndex, setActiveIndex] = useState<number | null>(-1);
 
   const toggleIndex = (index: number) => {
@@ -66,61 +66,57 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="py-10 bg-[#FFFFFF] w-[90%] md:w-[80%] mx-auto  rounded-3xl shadow-xl">
-      <div className="mx-auto max-w-5xl ">
-        <div className="mb-5">
-          <h2 className="text-5xl font-manrope text-center font-semibold text-gray-900 leading-[3.25rem]">
-            FAQ
-          </h2>
-        </div>
-        <div className="space-y-4">
-          {faqData.map((item, index) => (
-            <div
-              key={index}
-              className={`accordion py-5 px-4 border-b border-gray-200 transition-all duration-500 rounded-2xl hover:bg-green-50 ${
-                activeIndex === index ? "bg-green-50" : ""
-              }`}
-            >
-              <button
-                onClick={() => toggleIndex(index)}
-                className="w-full flex items-center justify-between text-left group"
-              >
-                <h5
-                  className={`leading-8 transition duration-500 font-medium group-hover:text-[#2E7D32] ${
-                    activeIndex === index ? "text-[#2E7D32]" : "text-gray-900"
-                  }`}
-                >
-                  {item.question}
-                </h5>
-                <Image
-                  src="/Icons/down.png"
-                  width={25}
-                  height={25}
-                  alt="Down"
-                  className={`${
-                    activeIndex === index ? "rotate-180 " : ""
-                  } transition-transform duration-300`}
-                />
-                {/* <ChevronDown
-                  className={`transition-transform duration-500 text-gray-500 group-hover:text-indigo-600 ${
-                    activeIndex === index ? "rotate-180 text-indigo-600" : ""
-                  }`}
-                  size={22}
-                /> */}
-              </button>
+    <div className="flex justify-center w-full">
+      <section className="py-10 bg-[#FFFFFF]  rounded-3xl rounded-bl-none rounded-tl-none shadow-2xl">
+        <div className="mx-auto max-w-5xl ">
+          <div className="mb-5">
+            <h2 className="text-5xl font-manrope text-center font-semibold text-gray-900 leading-[3.25rem]">
+              FAQ
+            </h2>
+          </div>
+          <div className="space-y-0">
+            {faq.map((item, index) => (
               <div
-                className={`overflow-hidden transition-all duration-500 ease-in-out mt-4 ${
-                  activeIndex === index ? "max-h-60" : "max-h-0"
+                key={index}
+                className={`accordion py-3 px-4 border-b border-gray-200 transition-all duration-500 rounded-2xl hover:bg-green-50 ${
+                  activeIndex === index ? "bg-green-50" : ""
                 }`}
               >
-                <p className="text-base text-gray-900 leading-6">
-                  {item.answer}
-                </p>
+                <button
+                  onClick={() => toggleIndex(index)}
+                  className="w-full flex items-center justify-between text-left group"
+                >
+                  <h5
+                    className={`leading-8 transition duration-500 font-medium group-hover:text-[#2E7D32] ${
+                      activeIndex === index ? "text-[#2E7D32]" : "text-gray-900"
+                    }`}
+                  >
+                    {item.question}
+                  </h5>
+                  <Image
+                    src="/Icons/down.png"
+                    width={25}
+                    height={25}
+                    alt="Down"
+                    className={`${
+                      activeIndex === index ? "rotate-180 " : ""
+                    } transition-transform duration-300`}
+                  />
+                </button>
+                <div
+                  className={`overflow-hidden transition-all duration-500 ease-in-out mt-4 ${
+                    activeIndex === index ? "max-h-60" : "max-h-0"
+                  }`}
+                >
+                  <p className="text-base text-gray-900 leading-6">
+                    {item.answer}
+                  </p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }
