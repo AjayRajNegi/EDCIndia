@@ -3,6 +3,7 @@ import Image from "next/image";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import MembershipForm from "./MembershipForm";
+import Apply from "./Apply";
 
 export default function members() {
   return (
@@ -10,8 +11,8 @@ export default function members() {
       <Navbar />
       <main>
         {/* Hero Section */}
-        <section className="text-5xl font-bold flex flex-col items-center ">
-          <h1 className="my-[80px] relative z-[10]">
+        <section className="text-4xl md:text-5xl font-bold flex flex-col items-center ">
+          <h1 className="my-[50px] md:my-[80px] relative z-[10]">
             Become Our <span className="text-[#2E7D32]">Member.</span>
           </h1>
           <div className="relative z-[10] aspect-video w-[96%] max-w-[2000px] bg-red-200">
@@ -24,22 +25,22 @@ export default function members() {
           </div>
           {/* Background Circles */}
           <div>
-            <div className="absolute h-[200px] w-[200px] bg-[#C0E87D]/30 md:bg-[#C0E87D]/40 rounded-full top-[1%] left-[110%] md:left-[50%] -translate-x-[50%] xl:-translate-x-[0%] xl:left-[94%] flex justify-center items-center z-0">
+            <div className="absolute h-[200px] w-[200px] bg-[#C0E87D]/30 md:bg-[#C0E87D]/40 rounded-full top-[1%] left-[110%] xl:left-[50%] -translate-x-[50%] xl:-translate-x-[0%] hidden justify-center items-center z-0  md:flex">
               <div className=" h-[150px] w-[150px] bg-[#C0E87D]/40 xl:bg-[#C0E87D] rounded-full top-[10%] left-[94%] z-0"></div>
             </div>
-            <div className="hidden md:block absolute h-[75px] w-[75px] bg-[#C0E87D]  rounded-full top-[4%] md:left-[58%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
-            <div className="absolute h-[150px] w-[150px] bg-[#C0E87D]  rounded-full top-[3%]  left-[30%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
-            <div className="absolute h-[150px] w-[150px] bg-[#C0E87D]  rounded-full top-[-2%] left-[-3%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
+            <div className="hidden md:block absolute h-[75px] w-[75px] bg-[#C0E87D]  rounded-full top-[3.5%] md:left-[58%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
+            <div className="absolute h-[150px] w-[150px] bg-[#C0E87D]  rounded-full top-[2.5%]  left-[30%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
+            <div className="absolute h-[150px] w-[150px] bg-[#C0E87D]  rounded-full top-[-1%] left-[-3%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
           </div>
         </section>
         {/* Features Section */}
         <section className="w-full h-auto bg-[linear-gradient(to_top,_#2E7D32_50%,_#FFFCFC_50%)] p-[4vw]">
           {/* Headings For Features Section */}
           <div className="flex flex-col items-center mt-[10px]">
-            <h1 className="text-5xl font-bold text-[#107D15]">
+            <h1 className="text-4xl md:text-5xl font-bold text-[#107D15]">
               Membership Benefits
             </h1>
-            <h2 className="text-4xl font-semibold px-[20%] text-center pt-[60px]">
+            <h2 className="text-2xl md:text-4xl font-semibold px-[10%] md:px-[20%] text-center pt-[20px] md:pt-[60px]">
               Empowering Connections, Mitigating Risks, Unlocking Growth
             </h2>
           </div>
@@ -108,40 +109,43 @@ export default function members() {
             How Do Our Members Contribute?
           </h1>
           <div className="flex justify-around">
-            <div className="w-[25%] flex flex-col items-center gap-[25px]">
-              <p className="text-5xl bg-[#C0E87D] px-9 py-5 font-semibold rounded-full w-fit text-[#2E7D32] mb-0">
+            <div className="w-[30%] md:w-[25%] flex flex-col items-center gap-[25px]">
+              <p className="text-4xl md:text-5xl bg-[#C0E87D] px-8 md:px-9 py-5 font-semibold rounded-full w-fit text-[#2E7D32] mb-0">
                 1
               </p>
-              <p className="text-2xl font-semibold text-[#C0E87D] text-center mx-[4vw]">
+              <p className="text-lg md:text-2xl font-semibold text-[#C0E87D] text-center mx-0 md:mx-[4vw]">
                 Fund Early Stage Startups.
               </p>
             </div>
-            <div className="w-[28%] flex flex-col items-center gap-[25px]">
-              <p className="text-5xl bg-[#C0E87D] px-8 py-5 font-semibold rounded-full w-fit text-[#2E7D32] mb-0">
+            <div className="w-[30%] md:w-[28%] flex flex-col items-center gap-[25px]">
+              <p className="text-4xl md:text-5xl bg-[#C0E87D] px-8 py-5 font-semibold rounded-full w-fit text-[#2E7D32] mb-0">
                 2
               </p>
-              <p className="text-2xl font-semibold text-[#C0E87D] text-center mx-[4vw]">
+              <p className="text-lg md:text-2xl font-semibold text-[#C0E87D] text-center mx-0 md:mx-[4vw]">
                 Guiding Entrepreneurs, Powering Startups!
               </p>
             </div>
-            <div className="w-[25%] flex flex-col items-center gap-[25px]">
-              <p className="text-5xl bg-[#C0E87D] px-8 py-5 font-semibold rounded-full w-fit text-[#2E7D32] mb-0">
+            <div className="w-[30%] md:w-[25%] flex flex-col items-center gap-[25px]">
+              <p className="text-4xl md:text-5xl bg-[#C0E87D] px-8 py-5 font-semibold rounded-full w-fit text-[#2E7D32] mb-0">
                 3
               </p>
-              <p className="text-2xl font-semibold text-[#C0E87D] text-center mx-[4vw]">
-                Events To Promote Entrepreneurship.
+              <p className="text-lg md:text-2xl font-semibold text-[#C0E87D] text-center mx-0 md:mx-[4vw]">
+                Events To Promote <br />
+                <span className="text-base sm:text-lg md:text-2xl">
+                  Entrepreneurship.
+                </span>
               </p>
             </div>
           </div>
         </section>
         {/* Member/Product Section */}
-        <section></section>
+        <section>{/* <Apply /> */}</section>
         {/* Form-FAQ Section */}
-        <section className="flex justify-center w-full bg-[#FFFCFC] py-[100px]">
-          <article className="w-[45%]">
+        <section className="flex flex-col md:flex-row justify-center w-full bg-[#FFFCFC] py-[100px] items-center gap-[20px] md:gap-0">
+          <article className="w-[90%] md:w-[45%]">
             <MembershipForm />
           </article>
-          <article className="w-[45%]">
+          <article className="w-[90%] md:w-[45%]">
             <FAQ />
           </article>
         </section>
