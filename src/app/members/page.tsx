@@ -3,7 +3,7 @@ import Image from "next/image";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import MembershipForm from "./MembershipForm";
-//import Apply from "./Apply";
+import Apply from "./Apply";
 
 export default function members() {
   return (
@@ -25,11 +25,11 @@ export default function members() {
           </div>
           {/* Background Circles */}
           <div>
-            <div className="absolute h-[200px] w-[200px] bg-[#C0E87D]/30 md:bg-[#C0E87D]/40 rounded-full top-[1%] left-[110%] xl:left-[50%] -translate-x-[50%] xl:-translate-x-[0%] hidden justify-center items-center z-0  md:flex">
+            <div className="absolute h-[200px] w-[200px] bg-[#C0E87D]/30 md:bg-[#C0E87D]/40 rounded-full top-[1%] left-[110%] md:left-[94%] -translate-x-[50%] xl:-translate-x-[0%] hidden justify-center items-center z-0  md:flex">
               <div className=" h-[150px] w-[150px] bg-[#C0E87D]/40 xl:bg-[#C0E87D] rounded-full top-[10%] left-[94%] z-0"></div>
             </div>
-            <div className="hidden md:block absolute h-[75px] w-[75px] bg-[#C0E87D]  rounded-full top-[3.5%] md:left-[58%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
-            <div className="absolute h-[150px] w-[150px] bg-[#C0E87D]  rounded-full top-[2.5%]  left-[30%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
+            <div className="hidden md:block absolute h-[75px] w-[75px] bg-[#C0E87D]  rounded-full top-[2.5%] md:left-[58%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
+            <div className="absolute h-[150px] w-[150px] bg-[#C0E87D]  rounded-full top-[1.5%]  left-[30%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
             <div className="absolute h-[150px] w-[150px] bg-[#C0E87D]  rounded-full top-[-1%] left-[-3%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
           </div>
         </section>
@@ -139,7 +139,9 @@ export default function members() {
           </div>
         </section>
         {/* Member/Product Section */}
-        <section>{/* <Apply /> */}</section>
+        <section>
+          <Apply />
+        </section>
         {/* Form-FAQ Section */}
         <section className="flex flex-col md:flex-row justify-center w-full bg-[#FFFCFC] py-[100px] items-center gap-[20px] md:gap-0">
           <article className="w-[90%] md:w-[45%]">
@@ -157,7 +159,7 @@ export default function members() {
           <div className="flex flex-wrap gap-5 justify-center mt-[50px]">
             {/* Demo Cards */}
             <div
-              className="h-[360px] w-[360px] border-2 border-[#C0E87D] rounded-xl flex justify-center flex-col items-center gap-[25px] hover:scale-125 transition transform-600"
+              className="h-[300px] w-[300px] md:h-[360px] md:w-[360px] border-2 border-[#C0E87D] rounded-xl flex justify-center flex-col items-center gap-[25px] hover:scale-125 transition transform-600"
               style={{
                 backgroundColor: `#2E7D36`,
                 background: `linear-gradient(48deg,rgba(46, 125, 54, 1) 0%, rgba(46, 125, 54, 1) 83%, rgba(192, 232, 125, 1) 100%)`,
@@ -171,7 +173,7 @@ export default function members() {
               </p>
             </div>
             <div
-              className="h-[360px] w-[360px] border-2 border-[#C0E87D] rounded-xl flex justify-center flex-col items-center gap-[25px] hover:scale-125 transition transform-600"
+              className="h-[300px] w-[300px] md:h-[360px] md:w-[360px] border-2 border-[#C0E87D] rounded-xl flex justify-center flex-col items-center gap-[25px] hover:scale-125 transition transform-600"
               style={{
                 backgroundColor: `#2E7D36`,
                 background: `linear-gradient(48deg,rgba(46, 125, 54, 1) 0%, rgba(46, 125, 54, 1) 83%, rgba(192, 232, 125, 1) 100%)`,
@@ -185,7 +187,7 @@ export default function members() {
               </p>
             </div>
             <div
-              className="h-[360px] w-[360px] border-2 border-[#C0E87D] rounded-xl flex justify-center flex-col items-center gap-[25px] hover:scale-125 transition transform-600"
+              className="h-[300px] w-[300px] md:h-[360px] md:w-[360px] border-2 border-[#C0E87D] rounded-xl flex justify-center flex-col items-center gap-[25px] hover:scale-125 transition transform-600"
               style={{
                 backgroundColor: `#2E7D36`,
                 background: `linear-gradient(48deg,rgba(46, 125, 54, 1) 0%, rgba(46, 125, 54, 1) 83%, rgba(192, 232, 125, 1) 100%)`,

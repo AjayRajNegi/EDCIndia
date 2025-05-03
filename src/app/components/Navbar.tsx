@@ -22,7 +22,10 @@ export default function Navbar() {
           <Link href="/members" className="text-gray-950 text-lg font-semibold">
             Members
           </Link>
-          <Link href="/" className="text-gray-950 text-lg font-semibold">
+          <Link
+            href="/entrepreneurs"
+            className="text-gray-950 text-lg font-semibold"
+          >
             Entrepreneurs
           </Link>
           <div className="bg-[#E8FFC2] px-6 text-[#2E7D32] py-3 rounded-md w-auto ">
