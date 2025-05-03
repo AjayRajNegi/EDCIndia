@@ -60,12 +60,12 @@ export default function ScrollLinked() {
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: false, amount: 0.7 }}
-              className="h-[600px] flex items-center justify-center gap-10"
+              className="h-[600px] flex flex-col md:flex-row items-center justify-center gap-10"
             >
-              <h2 className="text-3xl font-semibold text-center w-[20%] text-[#2E7D32]">
+              <h2 className="text-lg md:text-xl xl:text-3xl font-semibold text-center w-[80%] md:w-[30%] text-[#2E7D32]">
                 Apply Though Our Membership Form, Available Online.
               </h2>
-              <div className="relative h-[400px] aspect-video">
+              <div className="relative h-[180px] md:h-[250px] xl:h-[400px] aspect-video">
                 <Image
                   src="/Images/memberGraphics1.png"
                   fill
@@ -79,12 +79,13 @@ export default function ScrollLinked() {
               whileInView={{ opacity: 1 }}
               transition={{ duration: 1 }}
               viewport={{ once: false, amount: 0.5 }}
-              className="h-[600px] flex items-center justify-center gap-10"
+              className="h-[600px] flex flex-col md:flex-row items-center justify-center gap-10"
             >
-              <h2 className="text-3xl font-semibold text-center w-[20%] text-[#2E7D32]">
-                Our Governing Council Will Review Your Application.
+              <h2 className="text-lg md:text-xl xl:text-3xl  font-semibold text-center w-[80%] md:w-[20%] text-[#2E7D32]">
+                Our Governing Council Will Review Your Application,
               </h2>
-              <div className="relative h-[400px] aspect-video">
+
+              <div className="relative h-[180px] md:h-[250px] xl:h-[400px] aspect-video">
                 <Image
                   src="/Images/memberGraphics2.png"
                   fill
@@ -98,12 +99,12 @@ export default function ScrollLinked() {
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: false, amount: 0.7 }}
-              className="h-[600px] flex items-center justify-center gap-[20vw]"
+              className="h-[600px] flex flex-col md:flex-row items-center justify-between px-[4vw]"
             >
-              <h2 className="text-3xl font-semibold text-center w-[25%] text-[#2E7D32]">
+              <h2 className="text-lg md:text-xl xl:text-3xl font-semibold text-center w-[80%] md:w-[20%] text-[#2E7D32]">
                 If Approved, You Will Be Asked TO Sign The Membership Charter.
               </h2>
-              <div className="relative h-[300px] aspect-[1/1]">
+              <div className="relative h-[180px] xl:h-[400px] aspect-[1/1]">
                 <Image
                   src="/Images/memberGraphics3.png"
                   fill

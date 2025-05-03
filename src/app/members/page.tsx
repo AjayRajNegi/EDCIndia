@@ -159,7 +159,7 @@ export default function members() {
           <div className="flex flex-wrap gap-5 justify-center mt-[50px]">
             {/* Demo Cards */}
             <div
-              className="h-[300px] w-[300px] md:h-[360px] md:w-[360px] border-2 border-[#C0E87D] rounded-xl flex justify-center flex-col items-center gap-[25px] hover:scale-125 transition transform-600"
+              className="h-[300px] w-[300px] md:h-[360px] md:w-[360px] border-2 border-[#C0E87D] rounded-xl flex justify-center flex-col items-center gap-[25px] hover:scale-110 md:hover:scale-125 transition transform-600"
               style={{
                 backgroundColor: `#2E7D36`,
                 background: `linear-gradient(48deg,rgba(46, 125, 54, 1) 0%, rgba(46, 125, 54, 1) 83%, rgba(192, 232, 125, 1) 100%)`,
@@ -173,7 +173,7 @@ export default function members() {
               </p>
             </div>
             <div
-              className="h-[300px] w-[300px] md:h-[360px] md:w-[360px] border-2 border-[#C0E87D] rounded-xl flex justify-center flex-col items-center gap-[25px] hover:scale-125 transition transform-600"
+              className="h-[300px] w-[300px] md:h-[360px] md:w-[360px] border-2 border-[#C0E87D] rounded-xl flex justify-center flex-col items-center gap-[25px] hover:scale-110 md:hover:scale-125 transition transform-600"
               style={{
                 backgroundColor: `#2E7D36`,
                 background: `linear-gradient(48deg,rgba(46, 125, 54, 1) 0%, rgba(46, 125, 54, 1) 83%, rgba(192, 232, 125, 1) 100%)`,
@@ -187,7 +187,7 @@ export default function members() {
               </p>
             </div>
             <div
-              className="h-[300px] w-[300px] md:h-[360px] md:w-[360px] border-2 border-[#C0E87D] rounded-xl flex justify-center flex-col items-center gap-[25px] hover:scale-125 transition transform-600"
+              className="h-[300px] w-[300px] md:h-[360px] md:w-[360px] border-2 border-[#C0E87D] rounded-xl flex justify-center flex-col items-center gap-[25px] hover:scale-110 md:hover:scale-125 transition transform-600"
               style={{
                 backgroundColor: `#2E7D36`,
                 background: `linear-gradient(48deg,rgba(46, 125, 54, 1) 0%, rgba(46, 125, 54, 1) 83%, rgba(192, 232, 125, 1) 100%)`,
