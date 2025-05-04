@@ -7,7 +7,7 @@ export default function ScrollLinked() {
   return (
     <>
       <main className="p-[4vw]">
-        <h1 className="text-5xl font-bold text-center text-[#2E7D32]">
+        <h1 className="text-5xl pt-[30px] md:pt-0 font-bold text-center text-[#2E7D32]">
           How Can I Become A Member?
         </h1>
         <article className="flex">
@@ -99,7 +99,7 @@ export default function ScrollLinked() {
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: false, amount: 0.7 }}
-              className="h-[600px] flex flex-col md:flex-row items-center justify-between px-[4vw]"
+              className="h-[600px] flex flex-col md:flex-row items-center justify-center gap-10 md:gap-0 md:justify-between px-[4vw]"
             >
               <h2 className="text-lg md:text-xl xl:text-3xl font-semibold text-center w-[80%] md:w-[20%] text-[#2E7D32]">
                 If Approved, You Will Be Asked TO Sign The Membership Charter.

@@ -12,10 +12,6 @@ export default function contact() {
         <h1 className="text-4xl md:text-5xl font-bold relative z-10">
           Connect With <span className="text-[#2E7D32] ">Us.</span>
         </h1>
-        <p className="text-base text-center md:text-2xl text-[#959599] font-bold mt-[30px] relative z-10">
-          Empowering startups with funding, mentorship, and strategic growth
-          opportunities.
-        </p>
         {/* Background Circle */}
         <div>
           <div className="absolute h-[200px] w-[200px] bg-[#C0E87D]/30 md:bg-[#C0E87D]/40 rounded-full top-[5%] left-[110%] md:left-[50%] -translate-x-[50%] xl:-translate-x-[0%] xl:left-[94%] flex justify-center items-center z-0">
