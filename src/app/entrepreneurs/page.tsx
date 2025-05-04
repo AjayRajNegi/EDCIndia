@@ -285,9 +285,15 @@ export default function Entrepreneurs() {
               </div>
             </div>
           </div>
+<<<<<<< HEAD
           <h2 className="text-4xl font-bold">Do We sign NDA&apos;s?</h2>
           <p className="text-2xl font-semibold px-[4vw] text-center">
             We at UAN , Don&apos;t Sign Non Disclosure Agreements (NDAs) with
+=======
+          <h2 className="text-4xl font-bold">Do We sign NDA's?</h2>
+          <p className="text-2xl font-semibold px-[4vw] text-center">
+            We at UAN , Don't Sign Non Disclosure Agreements (NDAs) with
+>>>>>>> 8ebf0e71157aa0d1ebc29cb1ba400477fd639bb4
             Startups. However as a Professional Organisation , We Ensure that
             Startup Details are Only Shared Within our Network. Your Interest is
             Further Protected By an Internal NDAs Signed By All Members.
