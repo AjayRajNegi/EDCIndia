@@ -216,7 +216,7 @@ export default function Nav() {
                   <a href="https://www.linkedin.com/company/31220335/admin/dashboard/">
                     <div className="relative h-12 w-12 rounded-lg">
                       <Image
-                        src="/Icons/LinkedIn.png"
+                        src="/Icons/Linkedin.png"
                         fill
                         objectFit="cover"
                         alt="Insta"
