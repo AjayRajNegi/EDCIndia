@@ -221,60 +221,70 @@ export default function Home() {
             </h3>
           </div>
           <div className="flex px-[4vw] justify-around items-center md:items-end flex-col md:flex-row gap-5 md:gap-0">
-            <div className="w-[330px] h-[290px] bg-[#F9FFF9] border-2 border-[#898989]/30 rounded-3xl p-4 hover:bg-[#FFF] hover:shadow-xl transition-colors transition-shadow duration-200">
+            <div className="w-[330px] min-h-[380px] bg-[#F9FFF9] border-2 border-[#898989]/30 rounded-3xl p-4 hover:bg-[#FFF] hover:shadow-xl transition-colors transition-shadow duration-200">
               <Image
                 src="/Icons/QuoteIcon.png"
                 width={40}
                 height={30}
                 alt="quote"
               />
-              <p className="pt-5 text-lg">
-                &quot;Investor connections! Found the perfect match, thanks for
-                simplifying the search&quot;
+              <p className="pt-5 text-base">
+                &quot;Crafting Memories is a Dehradun-based startup transforming
+                cherished moments into timeless keepsakes through hand-casting
+                art. From DIY casting kits to bespoke sculptures for couples,
+                babies, and families, the startup brings emotional depth to
+                artistic craftsmanship. &quot;
               </p>
               <div className="flex gap-2 items-center pt-10">
                 <Image src="/Images/T1.png" width={40} height={40} alt="T1" />
                 <div className="text-[#2B2B2B]">
                   <p>Sarah Jones,</p>
-                  <p className="-mt-1">GreenTech Solutions</p>
+                  <p className="-mt-1">Crafting Memories</p>
                 </div>
               </div>
             </div>
-            <div className="w-[350px] h-[300px] bg-[#F9FFF9] border-2 border-[#898989]/30 rounded-3xl p-4 hover:bg-[#FFF] hover:shadow-xl transition-colors transition-shadow duration-200">
+            <div className="w-[350px] min-h-[400px] bg-[#F9FFF9] border-2 border-[#898989]/30 rounded-3xl p-4 hover:bg-[#FFF] hover:shadow-xl transition-colors transition-shadow duration-200">
               <Image
                 src="/Icons/QuoteIcon.png"
                 width={40}
                 height={30}
                 alt="quote"
               />
-              <p className="pt-5 text-lg">
-                &quot;High-quality startups, curated perfectly. Saves me time &
-                keeps me ahead of the innovation curve&quot;
+              <p className="pt-5 text-base">
+                &quot;Little Lamps is a Dehradun-based startup offering
+                handcrafted, sustainable lighting and décor that adds warmth and
+                personality to any space. Founded by Kamya, the brand
+                specializes in pine-wood lamps and washable fabric
+                shades—perfect for occasions such as baby showers,
+                housewarmings, and festive celebrations.&quot;
               </p>
               <div className="flex gap-2 items-center pt-10">
                 <Image src="/Images/T2.png" width={40} height={40} alt="T2" />
                 <div className="text-[#2B2B2B]">
                   <p>David Lee,</p>
-                  <p className="-mt-1">Spark Ventures</p>
+                  <p className="-mt-1">Little Lamps</p>
                 </div>
               </div>
             </div>
-            <div className="w-[330px] h-[290px] bg-[#F9FFF9] border-2 border-[#898989]/30 rounded-3xl p-4 hover:bg-[#FFF] hover:shadow-xl transition-colors transition-shadow duration-200">
+            <div className="w-[330px] min-h-[380px] bg-[#F9FFF9] border-2 border-[#898989]/30 rounded-3xl p-4 hover:bg-[#FFF] hover:shadow-xl transition-colors transition-shadow duration-200">
               <Image
                 src="/Icons/QuoteIcon.png"
                 width={40}
                 height={30}
                 alt="quote"
               />
-              <p className="pt-5 text-lg">
-                &quot;More than just a directory. Found resources, advice, and
-                even co-founders here!&quot;
+              <p className="pt-5 text-base">
+                &quot;Redcubical Systems, founded in 2020 by Ashish Uniyal, is a
+                Dehradun-based tech startup offering agile and affordable IT
+                solutions for startups and SMEs. Their expertise includes web
+                and mobile development, digital marketing, SEO, branding, and
+                scalable DevOps architectures. &quot;
               </p>
               <div className="flex gap-2 items-center pt-10">
                 <Image src="/Images/T3.png" width={40} height={40} alt="T3" />
                 <div className="text-[#2B2B2B]">
                   <p>Marai Pernez,</p>
-                  <p className="-mt-1">Social Impact Agency</p>
+                  <p className="-mt-1">Redcubical Systems</p>
                 </div>
               </div>
             </div>
