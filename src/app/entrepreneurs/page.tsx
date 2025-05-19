@@ -27,9 +27,9 @@ export default function Entrepreneurs() {
             <div className="absolute h-[200px] w-[200px] bg-[#C0E87D]/30 md:bg-[#C0E87D]/40 rounded-full top-[0%] left-[110%] md:left-[50%] -translate-x-[50%] xl:-translate-x-[0%] xl:left-[94%] flex justify-center items-center z-0">
               <div className=" h-[150px] w-[150px] bg-[#C0E87D]/40 xl:bg-[#C0E87D] rounded-full top-[10%] left-[94%] z-0"></div>
             </div>
-            <div className="hidden md:block absolute h-[75px] w-[75px] bg-[#C0E87D]  rounded-full top-[0%] md:left-[58%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
+            <div className="hidden md:block absolute h-[75px] w-[75px] bg-[#C0E87D]  rounded-full top-[2%] md:left-[58%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
             <div className="absolute h-[150px] w-[150px] bg-[#C0E87D]  rounded-full top-[0%] md:top-[0%] left-[30%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
-            <div className="absolute h-[150px] w-[150px] bg-[#C0E87D]  rounded-full top-[0%] left-[-3%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
+            <div className="absolute h-[150px] w-[150px] bg-[#C0E87D]  rounded-full -top-[1%] left-[-3%] -translate-x-[50%] xl:-translate-x-[0%]  z-0" />
           </div>
         </section>
         {/* Graphic Cards */}
