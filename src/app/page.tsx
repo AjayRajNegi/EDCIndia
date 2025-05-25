@@ -236,9 +236,9 @@ export default function Home() {
                 artistic craftsmanship. &quot;
               </p>
               <div className="flex gap-2 items-center pt-10">
-                <Image src="/Images/T1.png" width={40} height={40} alt="T1" />
+                <Image src="/Icons/cm.png" width={40} height={40} alt="T1" />
                 <div className="text-[#2B2B2B]">
-                  <p>Sarah Jones,</p>
+                  <p>Mr. Naman Bansal,</p>
                   <p className="-mt-1">Crafting Memories</p>
                 </div>
               </div>
@@ -259,9 +259,9 @@ export default function Home() {
                 housewarmings, and festive celebrations.&quot;
               </p>
               <div className="flex gap-2 items-center pt-10">
-                <Image src="/Images/T2.png" width={40} height={40} alt="T2" />
+                <Image src="/Icons/ll.png" width={40} height={40} alt="T2" />
                 <div className="text-[#2B2B2B]">
-                  <p>David Lee,</p>
+                  <p>Mrs. Kamya,</p>
                   <p className="-mt-1">Little Lamps</p>
                 </div>
               </div>
@@ -281,9 +281,9 @@ export default function Home() {
                 scalable DevOps architectures. &quot;
               </p>
               <div className="flex gap-2 items-center pt-10">
-                <Image src="/Images/T3.png" width={40} height={40} alt="T3" />
+                <Image src="/Icons/rc.png" width={40} height={40} alt="T3" />
                 <div className="text-[#2B2B2B]">
-                  <p>Marai Pernez,</p>
+                  <p>Mr. Ashish Uniyal,</p>
                   <p className="-mt-1">Redcubical Systems</p>
                 </div>
               </div>
