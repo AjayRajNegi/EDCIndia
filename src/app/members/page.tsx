@@ -15,7 +15,7 @@ export default function members() {
           <h1 className="my-[50px] md:my-[80px] relative z-[10]">
             Become Our <span className="text-[#2E7D32]">Member.</span>
           </h1>
-          <div className="relative z-[10] aspect-video w-[96%] max-w-[2000px] bg-red-200">
+          <div className="relative z-[10] aspect-video w-[96%] max-w-[2000px]">
             <Image
               src="/Images/memberBanner.png"
               fill

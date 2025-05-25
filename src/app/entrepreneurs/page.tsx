@@ -14,9 +14,9 @@ export default function Entrepreneurs() {
           <h1 className="text-4xl md:text-5xl font-bold relative z-10">
             Connect With <span className="text-[#2E7D32] ">Us.</span>
           </h1>
-          <div className="relative z-[10] aspect-video w-[96%] max-w-[2000px] bg-red-200 mt-[40px]">
+          <div className="relative z-[10] aspect-video w-[96%] max-w-[2000px] mt-[40px]">
             <Image
-              src="/Images/memberBanner.png"
+              src="/Images/entrepreneurBanner.png"
               fill
               objectFit="cover"
               alt="memberBanner"
